@@ -1,3 +1,7 @@
+/**
+ * @author Alland Timas
+ * Custom icon class to be used with CompositeIcon
+ */
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics;

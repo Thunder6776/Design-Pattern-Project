@@ -1,14 +1,20 @@
-
+/**
+ * @author Alland Timas
+ * tests composite pattern using two custom icons
+ */
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
-public class Part1Tester{
+public class CompositeTester{
 
 
     public static void main(String args[]){
       CompositeIcon cIcon = new CompositeIcon();
+      cIcon.addIcon(new CircleIcon(), 100, 300);
+      cIcon.addIcon(new SquareIcon(), 200, 0);
+      cIcon.addIcon(new CircleIcon(), 300, 300);
       JFrame frame = new JFrame();
       JPanel panel = new JPanel();
       JLabel label = new JLabel(cIcon);

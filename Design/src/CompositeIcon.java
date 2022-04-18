@@ -1,7 +1,10 @@
+/**
+ * @author Alland Timas
+ * Composite Icon class that takes in 
+ */
 import java.awt.Component;
 import java.awt.Graphics;
 import java.util.ArrayList;
-
 import javax.swing.Icon;
 
 public class CompositeIcon implements Icon{
@@ -11,8 +14,6 @@ public class CompositeIcon implements Icon{
     
 
     public CompositeIcon(){
-        addIcon(new CircleIcon(), 200, 50);
-        addIcon(new CircleIcon(), 10, 100);
     }
 
 
