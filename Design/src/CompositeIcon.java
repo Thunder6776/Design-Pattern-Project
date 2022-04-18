@@ -8,9 +8,13 @@ public class CompositeIcon implements Icon{
     private ArrayList<Icon> icons = new ArrayList<>();
     private ArrayList<Integer> xAttribute = new ArrayList<>();
     private ArrayList<Integer> yAttribute = new ArrayList<>();
+    
 
     public CompositeIcon(){
+        addIcon(new CircleIcon(), 200, 50);
+        addIcon(new CircleIcon(), 10, 100);
     }
+
 
     public void addIcon(Icon icon, int x, int y){
         icons.add(icon);
