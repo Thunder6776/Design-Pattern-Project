@@ -1,0 +1,2 @@
+I believe that the observer design pattern would be beneficial to the rock assignment we did at the beginning of the semester. 
+I think that an observer could watch the state of each rock object and keep track of the counter as well. 
